@@ -1,0 +1,76 @@
+/*--共通のcss start--*/
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background: #EEE;
+}
+/*--共通のcss end--*/
+
+/*--header start--*/
+header{
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    position: fixed;
+}
+
+.header_title{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.level{
+    font-size: 20px;
+    font-weight: lighter;
+    display: inline-block;
+}
+/*--header end--*/
+
+/*--main共通 start--*/
+main{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*--main共通 end--*/
+
+.space{
+    height: 150px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.hello_html{
+ 
+}
+
+.hello_js{
+
+}
+
+.button{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 30px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.button:hover {
+    opacity: 0.6;
+}
+
