@@ -1,0 +1,88 @@
+/*--共通のcss start--*/
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background: #EEE;
+}
+/*--共通のcss end--*/
+
+/*--header start--*/
+header{
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    position: fixed;
+}
+
+.header_title{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.level{
+    font-size: 20px;
+    font-weight: lighter;
+    display: inline-block;
+}
+/*--header end--*/
+
+/*--main共通 start--*/
+main{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*--main共通 end--*/
+
+.space{
+    height: 150px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance:textfield;
+}
+
+.form_box{
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+    display:inline-flex;
+    flex-wrap: nowrap;
+    align-self: center;
+}
+
+.plus{
+    display:inline-flex;
+    flex-wrap: nowrap;
+    align-self: center;
+}
+
+.equal{
+    display:inline-flex;
+    flex-wrap: nowrap;
+    align-self: center;
+    padding: 0 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.answer{
+    width: 150px;
+    display:inline-flex;
+    flex-wrap: nowrap;
+    align-self: center;
+}
