@@ -1,0 +1,75 @@
+/*--共通のcss start--*/
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background: linear-gradient(-135deg,#fccb90,#d57eeb)fixed;
+}
+/*--共通のcss end--*/
+
+/*--header start--*/
+header{
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    position: fixed;
+}
+
+.header_title{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.level{
+    font-size: 20px;
+    font-weight: lighter;
+    display: inline-block;
+}
+/*--header end--*/
+
+.space{
+    height: 10vh;
+}
+
+.open{
+    display: none;
+}
+
+/*--profile start*/
+.profile{
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_img{
+    width: 20vw;
+    border-radius: 30%;
+}
+
+.profile_info{
+    color: white;
+    font-size: 2vw;
+    padding: 1vh 0;
+}
+
+.discord::before{
+    font-family: "Font Awesome 5 Brands";
+    content: '\f392';
+}
+
+.name{
+    font-size: 3vw;
+    padding: 1vh 0;
+}
+
+/*--profile end--*/
